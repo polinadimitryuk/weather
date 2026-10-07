@@ -1,16 +1,12 @@
 # Core
 numpy
 pandas
+scipy
+statsmodels
 
 # Visualization
 matplotlib
 seaborn
-
-
-# Machine Learning
-scikit-learn
-statsmodels
-
 
 # Jupyter & Development
 jupyter
