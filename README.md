@@ -34,11 +34,17 @@ The goal of this project is to compare weather data from Seattle and Pittsburgh 
 
 ## Analysis
 
+Weather_Data file in code folder performs the data analysis.
+
 First, I needed to inspect the data from Seattle and Pittsburgh. I checked the columns in both datasets and made sure that I had date and precipitation columns. Then I compared the dataset sizes and checked if I had enough data for my analysis.
 
 I converted the date column to datetime and checked for duplicates. Both datasets did not have duplicate dates. Then I saw that the Pittsburgh dataset did not have data before 11-04-2018, and the Seattle dataset was missing data from 11-04-2018 to 11-11-2018. This is why I decided to limit the date range from 11-11-2018 to 12-31-2022.
 
-The next step was to join both datasets. In the new dataset, I had date, city, and precipitation columns. I started to inspect the newly created dataset. There were 205 missing precipitation values: 118 for Seattle and 87 for Pittsburgh. I used mean precipitation values to fill in the missing data.
+The next step was to join both datasets. 
+
+Clean data file: clean_seattle_pittsburgh_weather in data folder. 
+
+In the new dataset, I had date, city, and precipitation columns. I started to inspect the newly created dataset. There were 205 missing precipitation values: 118 for Seattle and 87 for Pittsburgh. I used mean precipitation values to fill in the missing data.
 
 After the dataset was clean, I saved it and started the analysis.
 
